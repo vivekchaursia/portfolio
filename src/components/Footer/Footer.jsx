@@ -41,11 +41,11 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} - Developed By{' '}
-          <a href="https://github.com/vivekchaursia" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/vivek-chaurasia-071aa4137/" target="_blank" rel="noopener noreferrer">
             Vivek chaurasia 
           </a>
           {' &'} Special Thanks to {' '}
-          <a href="https://github.com/vivekchaursia" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/neelamchaubey/" target="_blank" rel="noopener noreferrer">
             Neelam Chaubey
           </a>
         </p>
