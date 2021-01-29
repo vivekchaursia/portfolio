@@ -42,15 +42,14 @@ const Footer = () => {
         <p className="footer__text">
           © {new Date().getFullYear()} - Developed By{' '}
           <a href="https://github.com/vivekchaursia" target="_blank" rel="noopener noreferrer">
-            Vivek chaurasia
+            Vivek chaurasia 
           </a>
-        </p>
-        <p className="footer__text">
-            Special Thanks to {' '}
+          {' &'} Special Thanks to {' '}
           <a href="https://github.com/vivekchaursia" target="_blank" rel="noopener noreferrer">
             Neelam Chaubey
           </a>
         </p>
+        
 
         {isEnabled && <GithubButtons />}
       </Container>
