@@ -5,6 +5,8 @@ import PortfolioContext from '../../context/context';
 import GithubButtons from '../GithubButtons/GithubButtons';
 
 import { githubButtons } from '../../mock/data';
+import { FaBeer } from 'react-icons/fa';
+import { FaHeart } from 'react-icons/fa';
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
@@ -40,16 +42,24 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Developed By{' '}
-          <a href="https://www.linkedin.com/in/vivek-chaurasia-071aa4137/" target="_blank" rel="noopener noreferrer">
+          © {new Date().getFullYear()} - Made with{' '}
+          {/* <a href="https://www.linkedin.com/in/vivek-chaurasia-071aa4137/" target="_blank" rel="noopener noreferrer">
             Vivek chaurasia 
-          </a>
-          {' &'} Special Thanks to {' '}
+          </a> */}
+          <FaHeart />
+          {' and '}
+          <FaBeer />
+        </p>
+        <p className="footer__text">
+          Thanks {' '}
           <a href="https://www.linkedin.com/in/neelamchaubey/" target="_blank" rel="noopener noreferrer">
             Neelam Chaubey
-          </a>
+          </a> 
+          {' '}for support
         </p>
         
+        <h3> Lets go for a <FaBeer />? </h3>
+        <h3> Lets go for a <FaHeart />? </h3>
 
         {isEnabled && <GithubButtons />}
       </Container>
