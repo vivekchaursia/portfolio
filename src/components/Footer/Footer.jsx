@@ -58,8 +58,7 @@ const Footer = () => {
           {' '}for support
         </p>
         
-        <h3> Lets go for a <FaBeer />? </h3>
-        <h3> Lets go for a <FaHeart />? </h3>
+        
 
         {isEnabled && <GithubButtons />}
       </Container>

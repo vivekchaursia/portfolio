@@ -24,10 +24,16 @@ function App() {
     ],
     work: [
       {
+        company: 'Accenture Solutions',
+        title: 'Application Development Analyst',
+        years: 'April 2021 - Present',
+        description: '',
+      },
+      {
         company: 'Reliance Securities',
         title: 'Software Engineer',
-        years: 'April 2019 - Present',
-        description: 'Working here as an in-house developer, worked on various internal projects. Mainly worked on existing software to correct errors, and adapt to new hardware and improve performance.',
+        years: 'April 2019 - March 2021',
+        description: 'Played an important role as an in-house developer, worked on various internal projects. Mainly worked on existing software to correct errors, and adapt to new hardware and improve performance.',
       },
       {
         company: 'Bestfit Business Solutions',

@@ -18,10 +18,12 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I\'m a Software Developer/Architect. I’ve been a professional developer for more than 4 years and have mostly worked professionally with ASP.Net MVC with C#, VB, SQL Server sometimes with React JS, Bootstrap as well.',
+    'I\'m a Software Developer/Architect. I’ve been a professional developer for more than 4.5 years and have mostly worked professionally with ASP.Net MVC with C#, VB, SQL Server sometimes with React JS, Bootstrap as well.',
   paragraphTwo: ['Use the right tool for the job.', 'A programming language is just a tool.', 'Always try to learn something new.'],
+  //paragraphThree:
+  //  'Besides programming I\'m interested in sports, adventurous activities, online gaming and stock market. I enjoy meeting new people and finding ways to help them have an uplifting experience.',
   paragraphThree:
-    'Besides programming I\'m interested in sports, adventurous activities, online gaming and stock market. I enjoy meeting new people and finding ways to help them have an uplifting experience.',
+    'Apart from coding websites, I love to backpack and go on a run/walk and click scenic and eye-catching pictures along the way. When I\'ve free time I love to hang out with friends and have fun.  I enjoy meeting new people and finding ways to help them have an uplifting experience.',
   resume: '', // if no resume, the button will not show up
 };
 
